@@ -1,0 +1,81 @@
+.council-container {
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 1500px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .group {
+    margin: 2rem 0;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #1e3a8a;
+  }
+  
+  .image-group img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-group img:hover {
+    transform: scale(1.1);
+    border-color: #1e3a8a;
+  }
+  
+  .image-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .image-container:hover {
+    transform: scale(1.1);
+    border-color: #1e3a8a;
+  }
+  
+  .image-desc {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 0.3rem 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .image-container:hover .image-desc {
+    opacity: 1;
+  }
+  

@@ -1,10 +1,5 @@
 import React from 'react';
 import './Home.css';
-
-
-
-
-
 import Carousel from 'react-bootstrap/Carousel';
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 

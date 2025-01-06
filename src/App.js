@@ -11,9 +11,9 @@ const App = () => {
   return (
     <div>
       <NavComp />
-      <Home />
-      <Gallery />
-      <Contact />
+      {/* <Home /> */}
+      {/* <Gallery />
+      <Contact /> */}
     </div>
   );
 };
