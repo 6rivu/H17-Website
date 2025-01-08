@@ -36,7 +36,11 @@ function Home() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    <div>
+      <h1>Hostel Amenities</h1>
     </div>
+    </div>
+  
   );
 }
 
