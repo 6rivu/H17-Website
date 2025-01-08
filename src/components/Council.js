@@ -1,5 +1,6 @@
 import React from 'react';
 import './Council.css'; // For styling the council page
+import placeHolder from '../images/council/placeholder.jpg';
 
 const Council = () => {
   return (
@@ -10,11 +11,11 @@ const Council = () => {
         <h3> Wardens</h3>
         <div className="image-group">
             <div className="image-container">
-                <img src="/assets/warden1.jpg" alt="Warden 1" />
+                <img src={placeHolder} alt="Warden 1" />
                 <p className="image-desc">Warden 1</p>
             </div>
-          <img src="/assets/warden2.jpg" alt="Warden 2" />
-          <img src="/assets/warden3.jpg" alt="Warden 3" />
+          <img src={placeHolder} alt="Warden 2" />
+          <img src={placeHolder} alt="Warden 3" />
         </div>
       </section>
       
@@ -22,7 +23,7 @@ const Council = () => {
         <h3> General Secretary</h3>
         <div className="image-group">
         <div className="image-container">
-            <img src="/images/sydney-1.jpg" alt="Councillor 2" />
+            <img src={placeHolder} alt="Councillor 2" />
             <p className="image-desc">Warden 1</p>
           </div>
           </div>
@@ -31,15 +32,15 @@ const Council = () => {
       <section className="group">
         <h3>👥 Councillors</h3>
         <div className="image-group">
-          <img src="/images/sydney-2.jpg" alt="Sports Councillor"></img>
+          <img src={placeHolder} alt="Sports Councillor"></img>
           {/* <p> Wardens</p> */}
           <div className="image-container">
-            <img src="/images/sydney-1.jpg" alt="Councillor 2" />
+            <img src={placeHolder} alt="Councillor 2" />
             <p className="image-desc">Sydney Sweeney, Sports Councillor</p>
           </div>
-          <img src="/images/sydney-3.jpg" alt="Councillor 2" />
-          <img src="/images/sydney-4.jpg" alt="Councillor 2" />
-          <img src="/images/H-17.jpg" alt="Councillor 2" />
+          <img src={placeHolder} alt="Councillor 2" />
+          <img src={placeHolder} alt="Councillor 2" />
+          <img src={placeHolder} alt="Councillor 2" />
         </div>
       </section>
       
