@@ -37,4 +37,22 @@
   .cta-button:hover {
     background-color: #ff6347;
   }
+  .centered-heading {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .intro {
+    max-width: 1400px; /* Restrict the width for better readability */
+    margin: 2rem auto; /* Center the content horizontally */
+    padding: 1.5rem; /* Add padding for inner spacing */
+    text-align: justify; /* Align the text for neatness */
+    font-size: 1.2rem; /* Slightly larger font size for easy reading */
+    line-height: 1.8; /* Add spacing between lines */
+    color: #333; /* Dark gray color for good contrast */
+    background-color: #f9f9f9; /* Light background for subtle contrast */
+    border-radius: 10px; /* Rounded corners for aesthetics */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a soft shadow */
+    font-family: 'Arial', sans-serif; /* Use a clean, sans-serif font */
+  }
+  
   

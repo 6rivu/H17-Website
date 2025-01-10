@@ -43,7 +43,7 @@ import { Link } from 'react-router-dom';
 
 function NavComp() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary" background-color= "yellow">
       <Container>
         <Navbar.Brand as={Link} to="/">Hostel 17</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
